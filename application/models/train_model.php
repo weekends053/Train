@@ -21,6 +21,8 @@ function travel(){
     $this->db->join('origin_station', 'origin_station.t_id = train.t_id', 'left');
     $this->db->join('huayrach_station', 'huayrach_station.t_id = train.t_id', 'left');
     $this->db->join('end_station', 'end_station.t_id = train.t_id', 'left');
+    $this->db->Where('Time_out <= ', "06.00");
+    $this->db->Where('H_Time_out <= ', "06.00");
     
     $query = $this->db->get();
     return $query->result();

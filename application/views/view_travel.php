@@ -46,6 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </table>
       <div class="container">
 		<div class="box">
+    <a class="search" href="../Train/insert_travel">เพิ่ม</a>
     <a class="search" href="../Train/index">ย้อนกลับ</a>
 		</div>
     </center>
