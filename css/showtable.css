@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+body{
+    background :#faddf1;
+    font-family: 'Mitr', sans-serif;
+}
+.box .search{
+    display: block;
+    text-align: center;
+    width: 70px;
+    padding: 10px 30px;
+    margin: 10px 10px 10px -30px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+    background-color: #1428ff;
+    color: #f5f6f6;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.box .search:hover{
+    background-color: #2734c0;
+}
